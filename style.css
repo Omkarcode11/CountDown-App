@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  color: white;
+}
+#title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+#p1 {
+  float: left;
+}
+#coundown {
+  border: white solid 1px;
+}
+input {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+#submitbutton {
+  background-color: rgb(158, 158, 160);
+}
+nav {
+  background-color: rgb(72, 72, 72);
+  padding: 2px;
+  box-shadow: white 3px 3px 10px;
+}
+#complete {
+ position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  bottom: 210px;
+  font-size: 100px;
+}
+#timer {
+  padding-top: 10px;
+}
+span {
+  display: block;
+  font-size: 70px;
+}
+
+#div1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 0;
+  text-align: center;
+}
+#div2 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+  left: 120px;
+  bottom: 100px;
+  text-align: center;
+}
+#div3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(169, 169, 3);
+  position: relative;
+  left: 240px;
+  bottom: 200px;
+  text-align: center;
+}
+#div4 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  left: 360px;
+  bottom: 300px;
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <p id="p1"></p>
+        <h1 id="title">Countdown
+            down App</h1>
+    </nav>
+    <input id="inputdate" type="datetime-local">
+    <button id="submitbutton" onclick="display()" type="submit">Submit</button>
+    <div id="timer"> 
+    <div id="div1">
+        <span id="date"></span>
+        Day 
+    </div>
+    
+    <div id="div2">
+        <span id="hour"></span>
+        Hour
+    </div>
+    
+    <div id="div3">
+        <span id="minute"></span>
+        Minute
+    </div>
+    
+    <div id="div4"> 
+        <span id="second"></span>
+        Second
+    </div>
+</div>
+    
+    <center><h1 id="complete"></h1></center>
+    
+    <script src="date.js">
+    </script>
+</body>
+
+</html>
